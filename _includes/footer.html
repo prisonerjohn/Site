@@ -16,14 +16,16 @@
                 </p>
             </div>
             <div class="col-lg-4">
-                <h4>Our Bunker</h4>
+                <h4>Latest Posts</h4>
                 <div class="hline-w"></div>
                 <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
+                    {% for post in site.categories['blog'] limit:5 %} 
+                        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a>
+                        <br/>
+                    {% endfor %} 
                 </p>
             </div>
+        </div>
         </div><! --/row -->
     </div><! --/container -->
 </div><! --/footerwrap -->
