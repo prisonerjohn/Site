@@ -15,10 +15,10 @@ img: fraction-mash-main.jpg
 thumb: thumb02.jpg
 iframe: '<iframe src="https://player.vimeo.com/video/136464558?title=0&byline=0&portrait=0" width="945" height="532" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
 carousel:
-- fraction-mash-carousel-01.jpg
-- fraction-mash-carousel-02.jpg
-- fraction-mash-carousel-03.jpg
-- fraction-mash-carousel-04.jpg
+- fraction-mash-01.jpg
+- fraction-mash-02.jpg
+- fraction-mash-03.jpg
+- fraction-mash-04.jpg
 ---
 An iPad app allowing you to explore fractions by creating hilarious and dazzling photo mashups.
 

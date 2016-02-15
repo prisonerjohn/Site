@@ -14,15 +14,13 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner">
             {% for img in page.carousel.first %}
-                {% capture imgpath %}carousel/{{ img }}{% endcapture %}
                 <div class="item active">
-                    {% include photo.html file=imgpath %}
+                    {% include photo.html file=img %}
                 </div>
             {% endfor %}
             {% for img in page.carousel offset:1 %}
-                {% capture imgpath %}carousel/{{ img }}{% endcapture %}
                 <div class="item">
-                    {% include photo.html file=imgpath %}
+                    {% include photo.html file=img %}
                 </div>
             {% endfor %}
         </div>
