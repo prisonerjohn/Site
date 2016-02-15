@@ -5,7 +5,7 @@ title: Big Screams
 description: "Works by Elie Zananiri and collaborators."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+url: "http://prisonerjohn.github.io/Site/"
 
 # Build settings
 markdown: kramdown
