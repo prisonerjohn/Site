@@ -49,13 +49,13 @@ Parade is an interactive art installation born out of the collaboration between 
 
 A coarse wooden structure confronts us in the exhibition space. In this relic, which appears to have once been a sumptuous interior, remain only two porcelain vases; limp, slumped, exhausted, as having been forgotten there a long time ago. From the top of the structure hangs a work light, dangling under our noses and dimly illuminating the desolate scene. 
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/smallfly/15440942015/in/dateposted/" title="Parade in Paris"><img src="https://farm3.staticflickr.com/2949/15440942015_393ec73ae2_b.jpg" width="1024" height="768" alt="Parade in Paris"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+{% include photo.html file="parade-01.jpg" %}
 
 Visitors are encouraged to swing the suspended light, which causes the shadows cast by the vases to come alive on the wall, swaying to the rhythm of the movement. With time, the vases become aware of each other, and a relationship forms between them. The tone of the swings will determine if a combat or dance scene unfolds in front of the audience.
 
 Much like shadow theatre, Parade presents the fantastic spectacle of the vase silhouettes which, in a tragicomic ballet, try to regain their original form, their past glory.
 
-<a data-flickr-embed="true"  href="https://www.flickr.com/photos/smallfly/14098774879/in/dateposted/" title="Parade"><img src="https://farm4.staticflickr.com/3774/14098774879_c1b466d1cd_b.jpg" width="1024" height="683" alt="Parade"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+{% include photo.html file="parade-02.jpg" %}
 
 ####Press
 
