@@ -7,24 +7,71 @@ layout: default
 <div class="container mt">
     <div class="row">
 
-        {% include carousel.html %}
+        {% include iframe.html %}
 
-        <div class="col-lg-5 col-lg-offset-1">
+        <div class="col-lg-6 col-lg-offset-1">
             <div class="spacing"></div>
 
             {{ content }}
 
         </div>
-        <div class="col-lg-4 col-lg-offset-1">
+        <div class="col-lg-3 col-lg-offset-1">
             <div class="spacing"></div>
             <h4>Project Details</h4>
             <div class="hline"></div>
-            <p><b>Date:</b> {{ page.date | date: "%b %-d, %Y" }}</p>
-            <p><b>Author:</b> {{ page.author }}</p>
+            <p><b>Date:</b> {{ page.date | date: "%Y" }}</p>
+
+            {% if page.credits %}
+                <b>Credits</b>
+                <ul>
+                {% for hash in page.credits %}
+                    {% for credit in hash %}
+                        <li>
+                        {% if credit.size == 2 %}
+                            {{ credit[0] }}: {{ credit[1] | markdownify | remove: '<p>' | remove: '</p>' }} 
+                        {% else %}
+                            {{ credit | markdownify | remove: '<p>' | remove: '</p>' }}
+                        {% endif %}
+                        </li>
+                    {% endfor %}
+                {% endfor %}
+                </ul>
+            {% endif %}
+
+            {% if page.exhibitions %}
+                <b>Exhibitions</b>
+                <ul>
+                {% for exhibition in page.exhibitions %}
+                    <li>
+                    {{ exhibition.event | markdownify | remove: '<p>' | remove: '</p>' }}
+                    {% if exhibition.venue %}
+                        <br/>
+                        {{ exhibition.venue | markdownify | remove: '<p>' | remove: '</p>' }}
+                        ,
+                    {% endif %}
+                    {{ exhibition.city }}<br/>{{ exhibition.date }}
+                    </li>
+                {% endfor %}
+                </ul>
+            {% endif %}
+
             <p><b>Categories:</b> {{ page.categories }}</p>
-            <p><b>Tagged:</b> {{ page.tagged }}</p>
-            <p><b>Client:</b> {{ page.client }}</p>
-            <p><b>Website:</b> <a href="{{ page.website }}">{{ page.website }}</a></p>
+            {% if page.tagged %}
+                <p><b>Tagged:</b> {{ page.tagged }}</p>
+            {% endif %}
+            {% if page.client %}
+                <p><b>Client:</b> {{ page.client }}</p>
+            {% endif %}
+            {% if page.links %}
+                <b>Links</b>
+                <ul>
+                {% for link in page.links %}
+                    <li>
+                    {{ link | markdownify | remove: '<p>' | remove: '</p>' }}
+                    </li>
+                {% endfor %}
+                </ul>
+            {% endif %}
         </div>
     </div><! --/row -->
 </div><! --/container -->
