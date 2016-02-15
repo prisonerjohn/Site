@@ -1,0 +1,32 @@
+---
+layout: project
+title:  "CLOUDS"
+date:   2014-01-16
+credits:
+- "Directed by James George and Jonathan Minard"
+- "Lead Interaction Developer: Elie Zananiri"
+- Full list of credits can be found on the [project website](http://www.cloudsdocumentary.com/).
+categories:
+- project
+img: portfolio_10.jpg
+thumb: thumb02.jpg
+carousel:
+- single01.jpg
+- single02.jpg
+- single03.jpg
+tags:
+- installation
+- sundance
+- oculus
+- virtual reality
+website: www.cloudsdocumentary.com
+---
+####CLOUDS
+
+An interactive documentary exploring the community of digital artists and hackers creating tools for poetic, socially engaged experiments in technology.
+
+Rather than limiting the documentary to a fixed narrative, all the scenes and interview snippets exist in a database of tagged content. The viewer can navigate a cloud of ideas and trace a path through the network by asking the system questions, or sit back and watch as the StoryEngine takes over and generates sequences on the ﬂy.
+
+There are currently two versions of the documentary. The first is targeted for small groups, consisting of a main display for the interviews and visual systems, and a secondary display for metadata and a map of the information network. Users select questions and interact with systems using their hands, which are tracked by a [Kinect](https://dev.windows.com/en-us/kinect) sensor. The second version is for individual viewing, using the Oculus Rift headset to immerse the user into the film.
+
+CLOUDS premiered at [Sundance New Frontier 2014](https://www.sundance.org/festival/festival-program/new-frontier/).
