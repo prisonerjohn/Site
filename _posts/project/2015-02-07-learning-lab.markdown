@@ -1,20 +1,29 @@
 ---
 layout: project
-title: "Learning Lab: Mars Base"
 categories:
 - project
-tagged: Flat, UI, Development
+title: "Learning Lab: Mars Base"
+img: learning-lab-main.jpg
+thumb: learning-lab-thumb.jpg
+client: "Office of The Prime Minister, Dubai UAE"
 credits:
 - "Creative Direction, Production": "[Tellart](http://tellart.com/) + [Specular](http://www.specular.cc/)"
 - "Software Development": "Elie Zananiri"
-- "Martian 3D Rendering & Assets": "[Bryan Versteeg](http://www.bryanversteeg.com/)"
+- "3D Rendering and Assets": "[Bryan Versteeg](http://www.bryanversteeg.com/)"
 - "Motion Graphics": "[Arturo Echeverria](http://www.xavierecheverria.com/)"
 - "Dome Projection Environment": "[Igloo Vision](http://www.igloovision.com/)"
 links: 
 - "[Museum of the Future 2015](Museum of The Future 2015)"
-img: learning-lab-main.jpg
-thumb: thumb02.jpg
 iframe: '<iframe src="https://player.vimeo.com/video/122138826?title=0&byline=0&portrait=0" width="945" height="532" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+tags:
+- cultural
+- installation
+- 360
+- dome
+- projection
+- mobile
+- openFrameworks
+- iOS
 ---
 The Learning Lab exhibit at [Museum of Future Government Services](http://museum.governmentsummit.org/) envisions an immersive educational environment offering dynamic course topics on demand.
 

@@ -1,20 +1,22 @@
 ---
 layout: project
-title: "Collimation"
 categories:
 - project
-tagged: Flat, UI, Development
+title: "Collimation"
+img: collimation-main.jpg
+thumb: collimation-thumb.jpg
 credits:
 - "Conception, Design": "[Brad Todd](http://teleshadow.net/)"
 - "Software Development": "Elie Zananiri"
 - "Fabrication, Engineering": "[Dix2](http://www.dix2.com/)"
 - "Audio": "Ian Ilavsky + Brad Todd"
-links: 
-- "[Fraction Mash on the App Store](https://itunes.apple.com/us/app/fraction-mash/id952817654?ls=1&mt=8)"
-- "[NYSCI Noticing Tools](http://noticing.nysci.org/)"
-img: collimation-main.jpg
-thumb: thumb02.jpg
 iframe: '<iframe src="https://player.vimeo.com/video/137879996?title=0&byline=0&portrait=0" width="945" height="532" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+tags: 
+- experimental
+- installation
+- projection
+- camera
+- openFrameworks
 ---
 Collimation is an installation composed of two microscopes watching and recording each other and a three screen projection which visualizes the process of interpretive analysis occurring within the software. The system acts as a rudimentary form of AI, where the visual stimuli is translated - in a performative act of seeing - in the centre image (which is comprised of the two microscope feeds concatenated into one).
 

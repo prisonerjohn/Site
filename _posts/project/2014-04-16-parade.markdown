@@ -1,13 +1,15 @@
 ---
 layout:	project
-title: "Parade"
 categories:
 - project
+title: "Parade"
+img: parade-main.jpg
+thumb: parade-thumb.jpg
 credits:
 - Concept: Dpt. X Laurent Craste
-- Production: Dpt.
-- Ceramics: Laurent Craste
-- 3D Modeling: Mohannad Al-Khatib
+- Production: "[Dpt.](http://dpt.co/) / Elie Zananiri"
+- Ceramics: "[Laurent Craste](http://www.laurentcraste.com/)"
+- 3D Modeling: "[Mohannad Al-Khatib](http://mo-ak.com/)"
 - 3D Animation: Sébastien Léger
 exhibitions:
 - { 
@@ -40,10 +42,14 @@ exhibitions:
 	city: "Montreal",
 	date: "Aug-Sep 2015"
   } 
-img: parade-main.jpg
-thumb: parade-thumb.jpg
 iframe: '<iframe src="https://player.vimeo.com/video/96615251?title=0&byline=0&portrait=0" width="945" height="531" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-tagged: Flat, UI, Development
+tags: 
+- experimental
+- installation
+- shadows
+- openFrameworks
+- Unity
+- Kinect
 ---
 Parade is an interactive art installation born out of the collaboration between interaction design studio Dpt. and ceramic artist Laurent Craste.
 

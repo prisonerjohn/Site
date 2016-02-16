@@ -1,28 +1,31 @@
 ---
 layout: project
-title: "Stream Me Up"
 categories:
 - project
-tags:
-- installation
-- 360
-- Kinect
-- Oculus
+title: "Stream Me Up"
+img: stream-me-up-main.jpg
+thumb: stream-me-up-thumb.jpg
+client: "Microsoft Studio"
 credits:
-- Client: "Microsoft Studio"
 - "Production, Technical Direction, Photography & Lighting Direction": "[Specular](http://www.specular.cc/)"
 - Design: "[Something Savage Studios](http://www.somethingsavage.com/)"
 - Front-End Development: "[Charlie Whitney](http://www.sharkbox.com/)"
 - Back-End Development: Elie Zananiri
 - 3D Animation: "[Patrick Clark](https://vimeo.com/m/user2658175)"
-img: stream-me-up-main.jpg
-thumb: thumb02.jpg
 iframe: '<iframe src="https://player.vimeo.com/video/113967192?title=0&byline=0&portrait=0" width="945" height="532" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
 carousel:
 - stream-me-up-01.jpg
 - stream-me-up-03.jpg
 - stream-me-up-04.jpg
 - stream-me-up-05.jpg
+tags:
+- commercial
+- installation
+- 360
+- virtual reality
+- openFrameworks
+- Kinect
+- Oculus Rift
 ---
 Stream Me Up is an installation allowing the experience we have always desired: the ability to transport ourselves to new worlds.
 
