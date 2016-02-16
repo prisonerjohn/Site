@@ -19,8 +19,13 @@ layout: default
             <div class="spacing"></div>
             <h4>Project Details</h4>
             <div class="hline"></div>
+            
             <p><b>Date:</b> {{ page.date | date: "%Y" }}</p>
 
+            {% if page.client %}
+                <p><b>Client:</b> {{ page.client | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+            {% endif %}
+            
             {% if page.credits %}
                 <b>Credits</b>
                 <ul>
@@ -28,9 +33,9 @@ layout: default
                     {% for credit in hash %}
                         <li>
                         {% if credit.size == 2 %}
-                            {{ credit[0] }}: {{ credit[1] | markdownify | remove: '<p>' | remove: '</p>' }} 
+                            {{ credit[0] }}: {{ credit[1] | markdownify | remove: '<p>' | remove: '</p>' | strip }} 
                         {% else %}
-                            {{ credit | markdownify | remove: '<p>' | remove: '</p>' }}
+                            {{ credit | markdownify | remove: '<p>' | remove: '</p>' | strip }}
                         {% endif %}
                         </li>
                     {% endfor %}
@@ -43,34 +48,36 @@ layout: default
                 <ul>
                 {% for exhibition in page.exhibitions %}
                     <li>
-                    {{ exhibition.event | markdownify | remove: '<p>' | remove: '</p>' }}
+                    {{ exhibition.event | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+                    <br/>
                     {% if exhibition.venue %}
-                        <br/>
-                        {{ exhibition.venue | markdownify | remove: '<p>' | remove: '</p>' }}
-                        ,
+                        {{ exhibition.venue | markdownify | remove: '<p>' | remove: '</p>' | strip | append: ',' }}
                     {% endif %}
-                    {{ exhibition.city }}<br/>{{ exhibition.date }}
+                    {{ exhibition.city }}
+                    <br/>
+                    {{ exhibition.date }}
                     </li>
                 {% endfor %}
                 </ul>
             {% endif %}
 
-            <p><b>Categories:</b> {{ page.categories }}</p>
-            {% if page.tagged %}
-                <p><b>Tagged:</b> {{ page.tagged }}</p>
-            {% endif %}
-            {% if page.client %}
-                <p><b>Client:</b> {{ page.client }}</p>
-            {% endif %}
             {% if page.links %}
                 <b>Links</b>
                 <ul>
                 {% for link in page.links %}
                     <li>
-                    {{ link | markdownify | remove: '<p>' | remove: '</p>' }}
+                    {{ link | markdownify | remove: '<p>' | remove: '</p>' | strip }}
                     </li>
                 {% endfor %}
                 </ul>
+            {% endif %}
+            
+            {% if page.tags %}
+                <p>
+                {% for tag in page.tags %}
+                    <span style="white-space: nowrap;"><i class="fa fa-tag"></i>&nbsp;{{ tag }}</span>&emsp;&emsp;
+                {% endfor %}
+                </p>
             {% endif %}
         </div>
     </div><! --/row -->
