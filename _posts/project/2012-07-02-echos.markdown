@@ -1,0 +1,48 @@
+---
+layout:	project
+categories:
+- project
+title: "Échos"
+img: echos-main.jpg
+thumb: echos-thumb.jpg
+credits:
+- Production: "[Office national du film du Canada](https://www.onf.ca/)"
+- Direction and Coordination: "Pascal Brouard"
+- Design, Concept and Development: "[Dpt.](http://dpt.co/) / Elie Zananiri"
+- Music and Sound Design: "[David Drury](http://www.dubline.com/)"
+- Installation, Technical Design and Construction: "[XYZ Technologie Culturelle](http://www.xyz-tc.com)"
+exhibitions:
+- { 
+	event: "Forum mondial de la langue française 2012",
+	venue: "Centre des congrès de Québec",
+	city: "Québec",
+	date: "Jul 2012"
+  }
+- { 
+	event: "[Congrès mondial acadien 2014](http://www.cma2014.com/)",
+	city: "Edmunston",
+	date: "Aug 2014"
+  }
+iframe: '<iframe src="https://player.vimeo.com/video/83617386?title=0&byline=0&portrait=0" width="945" height="531" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
+carousel:
+- echos-01.jpg
+- echos-02.jpg
+- echos-03.jpg
+- echos-04.jpg
+- echos-05.jpg
+tags: 
+- cultural
+- installation
+- projection
+- mobile
+- mapping
+- openFrameworks
+- iOS
+---
+Échos is a participatory and interactive installation that challenges our perceptions and enhances the richness of the French language through places and emotions.
+
+A giant lenticular screen shines brightly in the centre of the space, surrounded by four booths. The central structure has four distinct viewing angles, on which curated films by 12 directors from around the world are broadcast, interspersed with video responses left by visitors to the exhibit. The booths allow guests to watch the films individually and to record their own video messages.
+
+The installation is accompanied by a website – [echos.onf.ca](http://echos.onf.ca/) – that takes the form of a colourful mosaic in which all 22 short films from the installation are available, sorted by emotion, country or location, as well as all of the visitors’ video testimonials.
+
+{% include carousel.html %}
