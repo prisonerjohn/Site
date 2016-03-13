@@ -1,7 +1,8 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: Big Screams
+head: 🐨·🍕
+title: elie.pizza
 description: "Works by Elie Zananiri and collaborators."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
@@ -100,7 +101,7 @@ clients:
     img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "Creative developer specialized in large-scale interactive experiences, mobile applications, and user interfaces."
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:
