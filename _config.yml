@@ -1,8 +1,8 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-head: 🐨·🍕
-title: elie.pizza
+head: prisonerjohn
+title: prisonerjohn
 description: "Works by Elie Zananiri and collaborators."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
