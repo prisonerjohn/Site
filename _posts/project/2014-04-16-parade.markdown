@@ -63,7 +63,7 @@ Much like shadow theatre, Parade presents the fantastic spectacle of the vase si
 
 {% include photo.html file="parade-02.jpg" %}
 
-####Press
+#### Press
 
 _"Parade is an interactive art installation conceived by ceramist Laurent Craste and digital agency Dpt. for the Chromatic festival in Montreal. At first glance the piece looks rather mundane: two misshapen porcelain vases sit atop a pedestal inside a wood cube, lit from above by an industrial light. But move the light and suddenly the magic happens as shadows projected from the vases animate to life. What a fun piece."_  
 [Dancing Shadow Sculptures](http://www.thisiscolossal.com/2014/05/dancing-shadow-sculptures-by-dpt-and-laurent-craste/) – This is Colossal, May 30 2014.

@@ -31,7 +31,7 @@ The systems behaviour is, in a mimetic sense, reflective of several kinds of pro
 
 In the installation, the visual instantiation of complex notions of being collide with features of surveillance and even further into cartographic renderings of both the microscopic, in the form of neuronal imagery to the macro in terms of alluding to the mapping and visualization of connectivity (through data analytics) within socio-geo-politcal bodies.
 
-####Press
+#### Press
 
 _"The data is first transposed in the centre image, combining the two microscope feeds, then extracted to the image on the left and “flowing” to the right as a “mirror neuron” where the image is influenced by the actions of the first, reacting and generating its own growth patterns and behaviour."_  
 [Collimation – Two interlocked microscopes stimulate artificial neural growth](http://www.creativeapplications.net/openframeworks/collimation-two-interlocked-microscopes-stimulate-artificial-neural-growth/) – CreativeApplications.net, Oct 20 2015.

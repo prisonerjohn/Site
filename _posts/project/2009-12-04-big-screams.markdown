@@ -30,7 +30,8 @@ You’re not supposed to scream in public places, but that’s exactly what you 
 
 The Big Screams front-end is built in C++ using the [openFrameworks](http://www.openframeworks.cc/) and [Box2D](http://box2d.org/) libraries. The back-end is built with [Processing](https://processing.org/) and synchronization is done using the [Most Pixels Ever](https://github.com/shiffman/Most-Pixels-Ever-Processing) library. The call system is provided by [MegaPhone](http://www.megaphonetv.com/).
 
-####Publications
+#### Publications
+
 _“Today’s designers are creating compelling atmospheres and interactive experiences by merging hardware and software with architecture and design. This book is a collection of this innovative work produced where virtual realms meet the real world and where dataflow confronts the human senses. It presents an international spectrum of interdisciplinary projects at the intersection of laboratory, trade show, and urban space that play with the new frontiers of perception, interaction, and staging created by current technology. The work reveals how technology is fundamentally changing and expanding strategies for the targeted use of architecture, art, communication, and design for the future.”_ – [A Touch of Code](http://shop.gestalten.com/a-touch-of-code.html), [Gestalten](http://shop.gestalten.com/), Apr 2011.
 
 {% include carousel.html %}

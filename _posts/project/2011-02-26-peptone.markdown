@@ -49,7 +49,7 @@ Scream or blow into your phone to keep your critter alive. You replenish your en
 
 {% include photo.html file="peptone-06.png" %}
 
-####Press
+#### Press
 
 _“Local design firm Departement, specialists in interactive media, plugs in and powers up Peptone, their digital “ecosystem,” on big screens in the halls of Place des Arts. Using your cellphone, you (like several dozen others, concurrently) dial up to create a lumpy little organism and whoop ’n’ holler into your phone to keep it alive—but beware, the same noise that sustains the lil’ bibitte also attracts toxic bacteria! Special “combo” numbers afford extra life points to keep the creature wiggling and wandering.”_ – Montreal Mirror, Feb 24 2011.
 
