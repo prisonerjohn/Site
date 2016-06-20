@@ -55,33 +55,39 @@
 				$(this).addClass('active');
 				return false;
 		});
-		
-		function getColumnNumber() { 
-			var winWidth = $(window).width(), 
-			columnNumber = 1;
-		
-			if (winWidth > 1200) {
+
+		function getWidth() {
+			var winWidth = $(window).width(),
+				horzPadding = parseInt($container.css('padding-left')) + parseInt($container.css('padding-right'));
+			return winWidth - horzPadding;
+		}
+
+		function getColumnNumber() {
+			var availWidth = getWidth(),
+				columnNumber = 1;
+
+			if (availWidth > 1200) {
 				columnNumber = 5;
-			} else if (winWidth > 950) {
+			} else if (availWidth > 950) {
 				columnNumber = 4;
-			} else if (winWidth > 600) {
+			} else if (availWidth > 600) {
 				columnNumber = 3;
-			} else if (winWidth > 400) {
+			} else if (availWidth > 400) {
 				columnNumber = 2;
-			} else if (winWidth > 250) {
+			} else if (availWidth > 250) {
 				columnNumber = 1;
 			}
 				return columnNumber;
-			}       
-			
+			}
+
 			function setColumns() {
-				var winWidth = $(window).width(), 
-				columnNumber = getColumnNumber(), 
-				itemWidth = Math.floor(winWidth / columnNumber);
-				
-				$container.find('.portfolio-item').each(function() { 
-					$(this).css( { 
-					width : itemWidth + 'px' 
+				var availWidth = getWidth(),
+					columnNumber = getColumnNumber(),
+					itemWidth = Math.floor(availWidth / columnNumber);
+
+				$container.find('.portfolio-item').each(function() {
+					$(this).css( {
+					width : itemWidth + 'px'
 				});
 			});
 		}
