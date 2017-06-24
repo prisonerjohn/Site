@@ -12,13 +12,13 @@ credits:
 - Music and Sound Design: "[David Drury](http://www.dubline.com/)"
 - Installation, Technical Design and Construction: "[XYZ Technologie Culturelle](http://www.xyz-tc.com)"
 exhibitions:
-- { 
+- {
 	event: "Forum mondial de la langue française 2012",
 	venue: "Centre des congrès de Québec",
 	city: "Québec",
 	date: "Jul 2012"
   }
-- { 
+- {
 	event: "[Congrès mondial acadien 2014](http://www.cma2014.com/)",
 	city: "Edmunston",
 	date: "Aug 2014"
@@ -30,7 +30,7 @@ carousel:
 - echos-03.jpg
 - echos-04.jpg
 - echos-05.jpg
-tags: 
+tags:
 - cultural
 - installation
 - projection

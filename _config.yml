@@ -6,7 +6,7 @@ title: prisonerjohn
 description: "Works by Elie Zananiri and collaborators."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://prisonerjohn.github.io/Site/"
+url: "http://prisonerjohn.com/"
 
 # Build settings
 markdown: kramdown
@@ -35,8 +35,8 @@ social:
     url: https://www.instagram.com/prisonerjohn/
   - title: vimeo-square
     url: https://vimeo.com/prisonerjohn
-  - title: flickr
-    url: https://www.flickr.com/photos/prisonerjohn
+  # - title: flickr
+  #   url: https://www.flickr.com/photos/prisonerjohn
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:

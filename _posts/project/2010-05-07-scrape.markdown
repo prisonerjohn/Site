@@ -5,7 +5,7 @@ categories:
 title: "Scrape"
 img: scrape-main.jpg
 thumb: scrape-thumb.jpg
-links: 
+links:
 - "[Project Site](http://www.silentlycrashing.net/scrape)"
 iframe: '<img src="/assets/img/project/scrape-banner.jpg" width="945" height="531" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></img>'
 carousel:
@@ -14,7 +14,7 @@ carousel:
 - scrape-03.jpg
 - scrape-04.jpg
 - scrape-05.jpg
-tags: 
+tags:
 - experimental
 - graphics
 - glitch
