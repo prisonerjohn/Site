@@ -12,7 +12,7 @@ credits:
 - 3D Modeling: "[Mohannad Al-Khatib](http://mo-ak.com/)"
 - 3D Animation: Sébastien Léger
 exhibitions:
-- { 
+- {
 	event: "[Festival Chromatic Montréal](http://festivalchromatic.com/)",
 	venue: "Chalet du Mont-Royal",
 	city: "Montreal",
@@ -41,9 +41,9 @@ exhibitions:
 	venue: "[PHI Centre](https://phi-centre.com/en/event/fost-en/)",
 	city: "Montreal",
 	date: "Aug-Sep 2015"
-  } 
+  }
 iframe: '<iframe src="https://player.vimeo.com/video/96615251?title=0&byline=0&portrait=0" width="945" height="531" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-tags: 
+tags:
 - experimental
 - installation
 - shadows
@@ -53,7 +53,7 @@ tags:
 ---
 Parade is an interactive art installation born out of the collaboration between interaction design studio Dpt. and ceramic artist Laurent Craste.
 
-A coarse wooden structure confronts us in the exhibition space. In this relic, which appears to have once been a sumptuous interior, remain only two porcelain vases; limp, slumped, exhausted, as having been forgotten there a long time ago. From the top of the structure hangs a work light, dangling under our noses and dimly illuminating the desolate scene. 
+A coarse wooden structure confronts us in the exhibition space. In this relic, which appears to have once been a sumptuous interior, remain only two porcelain vases; limp, slumped, exhausted, as having been forgotten there a long time ago. From the top of the structure hangs a work light, dangling under our noses and dimly illuminating the desolate scene.
 
 {% include photo.html file="parade-01.jpg" %}
 

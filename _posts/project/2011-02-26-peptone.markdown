@@ -10,7 +10,7 @@ credits:
 - Sound Design: Chris Olsen
 - Production: "[Dpt.](http://dpt.co/)"
 exhibitions:
-- { 
+- {
 	event: "Nuit Blanche",
 	venue: "[Place des Arts](http://placedesarts.com/)",
 	city: "Montreal",
@@ -34,7 +34,7 @@ carousel:
 - peptone-02.jpg
 - peptone-03.jpg
 - peptone-04.jpg
-tags: 
+tags:
 - experimental
 - installation
 - mobile
@@ -60,4 +60,3 @@ _"Peptone was recently on display in Montreal, where an estimated 900 phone call
 [Peptone, The Game That's Controlled By Shouting](http://kotaku.com/5784198/peptone-a-multiplayer-game-installation-thats-controlled-by-shouting) – Kotaku, Mar 21 2011.
 
 {% include carousel.html %}
-

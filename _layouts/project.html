@@ -19,13 +19,13 @@ layout: default
             <div class="spacing"></div>
             <h4>Project Details</h4>
             <div class="hline"></div>
-            
+
             <p><b>Date:</b> {{ page.date | date: "%Y" }}</p>
 
             {% if page.client %}
                 <p><b>Client:</b> {{ page.client | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
             {% endif %}
-            
+
             {% if page.credits %}
                 <b>Credits</b>
                 <ul>
@@ -33,7 +33,7 @@ layout: default
                     {% for credit in hash %}
                         <li>
                         {% if credit.size == 2 %}
-                            {{ credit[0] }}: {{ credit[1] | markdownify | remove: '<p>' | remove: '</p>' | strip }} 
+                            {{ credit[0] }}: {{ credit[1] | markdownify | remove: '<p>' | remove: '</p>' | strip }}
                         {% else %}
                             {{ credit | markdownify | remove: '<p>' | remove: '</p>' | strip }}
                         {% endif %}
@@ -71,7 +71,7 @@ layout: default
                 {% endfor %}
                 </ul>
             {% endif %}
-            
+
             {% if page.tags %}
                 <p>
                 {% for tag in page.tags %}

@@ -12,7 +12,7 @@ carousel:
 - big-screams-03.jpg
 - big-screams-04.jpg
 - big-screams-05.jpg
-tags: 
+tags:
 - experimental
 - installation
 - mobile

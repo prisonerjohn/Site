@@ -11,7 +11,7 @@ credits:
 - "Fabrication, Engineering": "[Dix2](http://www.dix2.com/)"
 - "Audio": "Ian Ilavsky + Brad Todd"
 iframe: '<iframe src="https://player.vimeo.com/video/137879996?title=0&byline=0&portrait=0" width="945" height="532" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>'
-tags: 
+tags:
 - experimental
 - installation
 - projection
@@ -22,10 +22,10 @@ Collimation is an installation composed of two microscopes watching and recordin
 
 {% include photo.html file="collimation-02.jpg" %}
 
-The resulting data is then transposed first to the image on the left, taking the form of a neuron and is responsive in both emergent growth and behaviour. The data chain continues, flowing to the right hand image of a neuron. In a "mirror neuron" scenario, this image is influenced by the actions of the first and independently reacts and generates its own growth patterns and behaviours. 
-The audio created by the apparatus itself, coupled with a composed score is introduced into the system where it too acts upon the behaviour and responsivity of the images. 
+The resulting data is then transposed first to the image on the left, taking the form of a neuron and is responsive in both emergent growth and behaviour. The data chain continues, flowing to the right hand image of a neuron. In a "mirror neuron" scenario, this image is influenced by the actions of the first and independently reacts and generates its own growth patterns and behaviours.
+The audio created by the apparatus itself, coupled with a composed score is introduced into the system where it too acts upon the behaviour and responsivity of the images.
 
-The systems behaviour is, in a mimetic sense, reflective of several kinds of processes which operate under acts of translation and analysis. The parsing of information, existing as it does at the very foundations of embodied cognition, is central to our understanding of the bodies, networks and ecosystems in which we exist. 
+The systems behaviour is, in a mimetic sense, reflective of several kinds of processes which operate under acts of translation and analysis. The parsing of information, existing as it does at the very foundations of embodied cognition, is central to our understanding of the bodies, networks and ecosystems in which we exist.
 
 {% include photo.html file="collimation-01.jpg" %}
 
