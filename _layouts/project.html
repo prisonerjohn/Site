@@ -61,6 +61,23 @@ layout: default
                 </ul>
             {% endif %}
 
+						{% if page.awards %}
+								<b>Awards</b>
+								<ul>
+								{% for award in page.awards %}
+										<li>
+										{{ award.name | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+										<br/>
+										{% if award.organization %}
+												{{ award.organization | markdownify | remove: '<p>' | remove: '</p>' | strip }}
+										{% endif %}
+										<br/>
+										{{ award.date }}
+										</li>
+								{% endfor %}
+								</ul>
+						{% endif %}
+
             {% if page.links %}
                 <b>Links</b>
                 <ul>
